@@ -1,0 +1,56 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+	min-height: 100%;
+	position: relative;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+	margin-bottom: 100px;
+}.card-border {
+  border: 2px solid #007bff;
+}
+li {
+  list-style-type: none;
+}
+li:hover {
+  transition: 400ms ease;
+  transform: scale(1.02);
+}
+.delete-btn {
+  border: none;
+  padding: 0;
+}
+.delete-btn > i {
+  padding: 10px 12px;
+}
+.dropdown-menu {
+  border: 1px solid #333;
+}
+.dropdown-divider {
+  border: 1px solid #333;
+
+}
+.dropdown-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #ca1325;
+  text-align: center;
+}
